@@ -1,0 +1,33 @@
+// This is just the Query to create a table todo which should be runed in Terminal
+
+
+
+sqlite> CREATE TABLE todo (
+   ...>     id INTEGER , 
+   ...>     todo TEXT, 
+   ...>     priority TEXT,
+   ...>     status TEXT
+   ...> );
+sqlite> INSERT INTO 
+   ...> todo(id , todo , priority , status )
+   ...> ;
+Error: near ";": syntax error
+sqlite> INSERT INTO 
+   ...> todo(id , todo , priority , status );
+Error: near ";": syntax error
+sqlite> INSERT INTO
+   ...> todo(id , todo , priority , status ) 
+   ...> VALUES
+   ...> (1,"Learn HTML" , "HIGH" , "TO DO"),
+   ...> (2,"Learn JS" , "MEDIUM" , "DONE"),
+   ...> (3, "Learn CSS" , "LOW" , "DONE"),
+   ...> (4, "Play CHESS" , "LOW" , "DONE" );
+sqlite> SELECT 
+   ...> *
+   ...> FROM 
+   ...> todo;
+1|Learn HTML|HIGH|TO DO
+2|Learn JS|MEDIUM|DONE
+3|Learn CSS|LOW|DONE
+4|Play CHESS|LOW|DONE
+sqlite> .exit 
