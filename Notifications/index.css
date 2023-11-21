@@ -1,0 +1,99 @@
+.bg_conatainer {
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingStyle {
+    color:black;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.firstContainer {
+    background-color:#0b69ff ;
+    display:flex;
+    flex-direction: row;
+    
+    align-items: center;
+    width: 300px;
+    margin-bottom: 25px;
+
+}
+
+.firstImg {
+    height: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.firstBoxStyle {
+    color:white;
+    font-size: 13px;
+}
+
+.secondContainer {
+    background-color: #2dca73;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    align-items: center;
+    width: 300px;
+
+}
+
+.secondImg {
+    height: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.secondBoxStyle {
+    color:white;
+    font-size: 13px;
+}
+
+.thirdContainer {
+    background-color:#ffb800;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    align-items: center;
+    width: 300px;
+
+}
+
+.thirdImg {
+    height: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.thirdBoxStyle {
+    color:white;
+    font-size: 13px;
+}
+
+.lastContainer {
+    background-color: #ff0b37 ;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    align-items: center;
+    width: 300px;
+
+}
+
+.lastImg {
+    height: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.lastBoxStyle {
+    color:white;
+    font-size: 13px;
+}
